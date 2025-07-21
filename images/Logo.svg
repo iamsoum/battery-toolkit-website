@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Battery" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 360">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fffdff;
+      }
+
+      .cls-4 {
+        fill: #54db63;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-5 {
+        fill: none;
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Background_rectangle" data-name="Background rectangle" class="cls-4" x="10.27" y="9.09" width="339.46" height="339.46" rx="75.98" ry="75.98"/>
+  <g id="Battery-2" data-name="Battery" class="cls-5">
+    <rect class="cls-1" x="154.86" y="93.69" width="51.47" height="36.43" rx="12" ry="12"/>
+    <path class="cls-1" d="m215.23,118.5h-70.46c-6.31,0-11.47,5.16-11.47,11.47v110c0,6.31,5.16,11.47,11.47,11.47h70.46c6.31,0,11.47-5.16,11.47-11.47v-110c0-6.31-5.16-11.47-11.47-11.47Zm-46.37,106.29l-.17-33.66h-16.67l38.88-44.94v33.82h19.7l-41.75,44.79Z"/>
+  </g>
+  <path id="Upper_arrow" data-name="Upper arrow" class="cls-2" d="m42.1,155.72S63.27,46.47,173.34,46.47c0,0,81.42-1.46,118.81,77.69l1.18,4.71,5.25.21,19.32-21v71.92h-72.66l26.04-29.92s-11.47-76.74-98.71-77.95c0,0-75.8-4.21-104.7,83.68l-25.78-.09Z"/>
+  <path id="Lower_arrow" data-name="Lower arrow" class="cls-3" d="m317.9,204.28s-21.17,109.25-131.24,109.25c0,0-81.42,1.46-118.81-77.69l-1.18-4.71-5.25-.21-19.32,21v-71.92h72.66s-26.04,29.92-26.04,29.92c0,0,11.47,76.74,98.71,77.95,0,0,75.8,4.21,104.7-83.68l25.78.09Z"/>
+</svg>
